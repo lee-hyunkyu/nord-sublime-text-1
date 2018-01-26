@@ -1368,7 +1368,7 @@ References
           <key>foreground</key>
           <string>#5e81ac</string>
         </dict>
-      </dict>  
+      </dict>
       <dict>
         <key>name</key>
         <string>[XML] CDATA Tag</string>
@@ -1717,6 +1717,43 @@ References
           <string>#8fbcbb</string>
         </dict>
       </dict>
+
+      <dict>
+        <key>name</key>
+        <string>[LaTeX] Math Mode Double Slash</string>
+        <key>scope</key>
+        <string>text.tex.latex meta.environment.math.block.be.latex</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#8fbcbb</string>
+        </dict>
+      </dict>
+
+      <dict>
+        <key>name</key>
+        <string>[LaTeX] Math Mode Curly Braces</string>
+        <key>scope</key>
+        <string>text.tex.latex punctuation.definition.group.brace.end.latex, text.tex.latex punctuation.definition.group.brace.begin.latex</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#8fbcbb</string>
+        </dict>
+      </dict>
+
+      <dict>
+        <key>name</key>
+        <string>[LaTeX] Math Mode Operators</string>
+        <key>scope</key>
+        <string>text.tex.latex keyword.operator.math.tex</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#8fbcbb</string>
+        </dict>
+      </dict>
+
     </array>
     <key>uuid</key>
     <string>8F96BB94-BF86-4D5E-9733-0428E66FB894</string>
